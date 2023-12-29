@@ -3,7 +3,7 @@ import localFont from "@next/font/local";
 import "./globals.css";
 
 const shabnam = localFont({
-  src: "../../public/fonts/Shabnam.woff2",
+  src: "../../public/fonts/shabnam.woff2",
 });
 
 export const metadata: Metadata = {
