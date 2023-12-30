@@ -23,9 +23,7 @@ export default function RootLayout({
           <header className="flex items-center justify-center p-4 bg-white border-b-2">
             <h1 className="font-semibold text-2xl text-center">مدیریت بودجه</h1>
           </header>
-          <main className="flex-1 overflow-y-auto p-4 bg-gray-100">
-            {children}
-          </main>
+          {children}
         </div>
       </body>
     </html>
