@@ -5,8 +5,8 @@ import { Input } from "../ui/input";
 
 export default function LoginForm() {
   return (
-    <div className="w-full max-w-xs">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div className="w-full mx-auto max-w-lg leading-10 p-4 m-4 bg-gradiant-to-r">
+      <form className="bg-gradiant-to-r from-red-300 to-orange-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
@@ -50,9 +50,6 @@ export default function LoginForm() {
           </a>
         </div>
       </form>
-      <p className="text-center text-gray-500 text-xs">
-        &copy; All rights reserved.
-      </p>
     </div>
   );
 }
