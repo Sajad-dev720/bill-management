@@ -5,8 +5,8 @@ import { Input } from "../ui/input";
 
 export default function LoginForm() {
   return (
-    <div className="w-full mx-auto max-w-lg leading-10 p-4 m-4 bg-gradiant-to-r">
-      <form className="bg-gradiant-to-r from-red-300 to-orange-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <div className="w-full mx-auto max-w-lg leading-10 p-4 m-4">
+      <form className="bg-gradiant-to-r from-black-300 to-black-200 shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <div className="mb-4">
           <label
             className="block text-gray-700 text-sm font-bold mb-2"
@@ -37,7 +37,7 @@ export default function LoginForm() {
         </div>
         <div className="flex items-center justify-between">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-10 border border-blue-500 hover:border-transparent rounded"
             type="button"
           >
             ورود

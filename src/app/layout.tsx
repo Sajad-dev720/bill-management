@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body className={shabnam.className}>
-        <div className="h-screen w-full flex flex-col bg-gradient-to-r from-green-200 to-teal-300">
+        <div className="h-screen w-full flex flex-col bg-gradient-to-r from-green-200 to-green-300">
           <header className="flex items-center justify-center p-4 bg-gradient-to-r from-teal-300 to-green-200">
             <h1 className="font-semibold text-2xl text-center">مدیریت بودجه</h1>
           </header>
