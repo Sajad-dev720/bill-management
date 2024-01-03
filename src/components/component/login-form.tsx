@@ -1,8 +1,3 @@
-import { LogInIcon } from "lucide-react";
-import { Button } from "../ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
-import { Input } from "../ui/input";
-
 export default function LoginForm() {
   return (
     <div className="w-full mx-auto max-w-lg leading-10 p-4 m-4">
